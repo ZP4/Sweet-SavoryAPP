@@ -13,7 +13,7 @@ public class Food {
     public HashMap<String, HashMap> Brooklyn= new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Southern_Comfort= new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Hispanic= new HashMap<String, HashMap>();
-    public HashMap<String, HashMap>Carribean = new HashMap<String ,HashMap>();
+    public HashMap<String, HashMap> Carribean = new HashMap<String ,HashMap>();
     public HashMap<String, HashMap> Europe  = new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Middle_east= new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Asia    = new HashMap<String, HashMap>();
