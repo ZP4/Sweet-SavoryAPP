@@ -19,7 +19,7 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        //final ImageView img = (ImageView) findViewById();
+        final ImageView img = (ImageView) findViewById(R.id.startlogo);
 
         final Intent i = new Intent(this, MainActivity.class);
         fadeOutAndHideImage(img, i);
@@ -34,7 +34,7 @@ public class StartActivity extends AppCompatActivity {
         fadeOut.setAnimationListener(new Animation.AnimationListener() {
             public void onAnimationEnd(Animation animation) {
                 img.setVisibility(View.GONE);
-                //StartActivity(x);
+                startActivity(x);
 
 
             }
