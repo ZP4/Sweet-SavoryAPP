@@ -1,4 +1,4 @@
-package matchwear.com.matchwearapp;
+package com.sweetsavoryapp;
 
 import java.net.FileNameMap;
 import java.util.HashMap;
