@@ -20,9 +20,10 @@ public class StartActivity extends AppCompatActivity {
         ActionBar myActionBar = getSupportActionBar();
         super.onCreate(savedInstanceState);
         setTitle("");
+        myActionBar.hide();
         setContentView(R.layout.activity_start);
 
-        myActionBar.hide();
+
 
         final ImageView img = (ImageView) findViewById(R.id.startlogo);
 
