@@ -9,7 +9,7 @@ import java.util.HashSet;
  */
 
 public class Food {
-    public HashMap<String, HashMap> American= new HashMap<String, HashMap>();
+    public  HashMap<String, HashMap<String, HashMap<String,String>>>  American = new  HashMap<String, HashMap<String, HashMap<String,String>>>();
     public HashMap<String, HashMap> Brooklyn= new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Southern_Comfort= new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Hispanic= new HashMap<String, HashMap>();
@@ -19,10 +19,13 @@ public class Food {
     public HashMap<String, HashMap> Asia    = new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Africa  = new HashMap<String, HashMap>();
     public HashMap<String, HashMap> Drinks  = new HashMap<String, HashMap>();
+    public HashMap<String, HashMap<String,String>>AA     = new HashMap<String, HashMap<String,String>>();
+    public HashMap<String, String>FMNCB    = new HashMap<String,String>();
 
     public Food() {
-        HashMap<String, HashMap> AA     = new HashMap<String, HashMap>();
-        HashMap<String, String>FMNCB    = new HashMap<String,String>();
+
+
+
         FMNCB.put("Title", "Fried Mac N Cheese Balls");
         FMNCB.put("Description","Crispy balls filled with homemade mac n' cheese" );
         FMNCB.put("Price", "$29.99");
@@ -40,7 +43,7 @@ public class Food {
         NECCS.put("Price", "$35.99");
         NECCS.put("Servings", "1 large bowl");
         NECCS.put("ID", "USA03");
-        HashMap<String,HashMap>AE       = new HashMap<String, HashMap>();
+        HashMap<String, HashMap<String,String>>AE       = new HashMap<String, HashMap<String,String>>();
         HashMap<String, String>SM       = new HashMap<String, String>();
         SM.put("Title", "Sliced Meatloaf");
         SM.put("Description", "Juicy carved meat loaf slices with a pour over tomato sauce");
@@ -59,7 +62,7 @@ public class Food {
         PCT.put("Price", "$34.99");
         PCT.put("Servings", "15 pieces");
         PCT.put("ID", "USE03");
-        HashMap<String, HashMap>ASD     = new HashMap<String, HashMap>();
+        HashMap<String, HashMap<String,String>>ASD     = new HashMap<String, HashMap<String,String>>();
         HashMap<String, String>MP       = new HashMap<String, String>();
         MP.put("Title", "Mashed Potatoes");
         MP.put("Description","Buttery mashed potatoes that'll remind you of home ");
@@ -78,7 +81,7 @@ public class Food {
         SS.put("Price", "$19.99");
         SS.put("Servings", "1 large bowl");
         SS.put("ID", "USS03");
-        HashMap<String, HashMap>AD      = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>AD      = new HashMap<String, HashMap<String,String>>();
         HashMap<String, String>AP       = new HashMap<String, String>();
         AP.put("Title", "Apple Pie");
         AP.put("Description", "fresh apples, mixed with the perfect blend of brown sugar and cinnamon");
