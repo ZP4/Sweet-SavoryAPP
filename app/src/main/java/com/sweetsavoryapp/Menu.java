@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static com.sweetsavoryapp.R.id.rv;
 
@@ -28,17 +29,24 @@ public class Menu extends AppCompatActivity {
         Food food = new Food();
         HashMap<String, HashMap<String, HashMap<String,String>>> American = food.American;
         HashMap<String,HashMap<String, String>> App =  American.get("Appitizer");
+        HashMap<String, String> app2 = App.get("Fred Mac N Cheese Balls");
+        System.out.println(app2.values());
         Collection aaa= American.values();
         ArrayList<String> hello = new ArrayList<String>(aaa);
-        for (HashMap value : food.American.values()) {
-            for (Object value2:value.values()) {
-                persons.add(new FoodFormat(value.get("Appitizer").toString(), "Hello","123","5","6"));
+        for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : food.American.entrySet()) {
+            for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet() ) {
+                persons.add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), "5", "6"));
+                for (Map.Entry<String, String> c : b.getValue().entrySet()) {
+                    System.out.println(c.toString());
+                    //persons.add(new FoodFormat(c.getValue(), "Hello", "123", "5", "6"));
+                }
             }
 
 
 
     }
-        FoodAdapter ff = new FoodAdapter(persons,getApplicationContext());
+        System.out.println(persons.get(1).getId().toString());
+        FoodAdapter ff = new FoodAdapter(persons, getApplicationContext());
         rv.setAdapter(ff);
 
 
