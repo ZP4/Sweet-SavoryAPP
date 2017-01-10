@@ -1,12 +1,15 @@
 package com.sweetsavoryapp;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -20,6 +23,9 @@ import java.util.List;
 
 public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv> {
 
+    public Context getContext() {
+        return context;
+    }
 
     @Override
     public FoodAdapterRv onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -66,9 +72,17 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv>
             Title = (TextView)itemView.findViewById(R.id.Title);
             Price = (TextView)itemView.findViewById(R.id.Price);
             Descript = (TextView)itemView.findViewById(R.id.Description);
+            cv.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
+                                    }
+            });
         }
     }
+    public static void launch(){
 
 
+
+    }
 }

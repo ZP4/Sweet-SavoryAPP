@@ -33,12 +33,12 @@ public class FontChanger {
             child = viewTree.getChildAt(i);
             if(child instanceof ViewGroup)
             {
-                // recursive call
+
                 replaceFonts((ViewGroup)child);
             }
             else if(child instanceof TextView)
             {
-                // base case
+
                 ((TextView) child).setTypeface(typeface);
             }
         }

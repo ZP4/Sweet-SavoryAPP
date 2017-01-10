@@ -36,10 +36,10 @@ public class Menu extends AppCompatActivity {
         for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : food.American.entrySet()) {
             for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet() ) {
                 persons.add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), "5", "6"));
-                for (Map.Entry<String, String> c : b.getValue().entrySet()) {
-                    System.out.println(c.toString());
+                //for (Map.Entry<String, String> c : b.getValue().entrySet()) {
+                    //System.out.println(c.toString());
                     //persons.add(new FoodFormat(c.getValue(), "Hello", "123", "5", "6"));
-                }
+                //}
             }
 
 
