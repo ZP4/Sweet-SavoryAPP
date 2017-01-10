@@ -40,6 +40,9 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv>
 
     @Override
     public void onBindViewHolder(FoodAdapterRv holder, int position) {
+    holder.Title.setText(ffa.get(position).getTitle());
+        holder.Descript.setText(ffa.get(position).getDescript());
+        holder.Price.setText(ffa.get(position).getPrice());
 
     }
 
@@ -55,8 +58,8 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv>
 
     public static class FoodAdapterRv extends RecyclerView.ViewHolder {
 
-        CardView cv;
-        TextView Title, Price, Descript;
+      public   CardView cv;
+        public TextView Title, Price, Descript;
         public FoodAdapterRv(View itemView) {
             super(itemView);
             cv = (CardView)itemView.findViewById(R.id.card);
