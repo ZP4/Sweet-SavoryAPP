@@ -3,6 +3,8 @@ package com.sweetsavoryapp;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,5 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle("Sweet N Savory");
+        String[] name={"Brooklyn","Hispanic","The Middle East","Asia","Carribean","Europe","Africa","The Americas"};
+        ArrayAdapter<String> Adapt=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,name);
+        ListView title=(ListView)findViewById(R.id.listView);
+        title.setAdapter(Adapt);
     }
 }
