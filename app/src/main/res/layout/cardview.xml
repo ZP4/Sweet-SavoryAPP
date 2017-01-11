@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/Price"
                 android:text="Sample3"
-                android:padding="5dp"
+                android:padding="8dp"
                 android:textSize="18dp"
                 android:textStyle="bold"/>
 
