@@ -10,14 +10,13 @@ import java.util.HashSet;
 
 public class Food {
     public  HashMap<String, HashMap<String, HashMap<String,String>>>  American = new  HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap> Brooklyn= new HashMap<String, HashMap>();
-    public HashMap<String, HashMap> Southern_Comfort= new HashMap<String, HashMap>();
-    public HashMap<String, HashMap> Hispanic= new HashMap<String, HashMap>();
-    public HashMap<String, HashMap> Carribean = new HashMap<String ,HashMap>();
-    public HashMap<String, HashMap> Europe  = new HashMap<String, HashMap>();
-    public HashMap<String, HashMap> Middle_east= new HashMap<String, HashMap>();
-    public HashMap<String, HashMap> Asia    = new HashMap<String, HashMap>();
-    public HashMap<String, HashMap> Africa  = new HashMap<String, HashMap>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>>  Brooklyn= new HashMap<String, HashMap<String, HashMap<String,String>>>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>>   Southern_Comfort= new HashMap<String, HashMap<String, HashMap<String,String>>>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>> Hispanic= new HashMap<String, HashMap<String, HashMap<String,String>>>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>>   Carribean = new HashMap<String, HashMap<String, HashMap<String,String>>>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>>   Europe  = new  HashMap<String, HashMap<String, HashMap<String,String>>>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>>   Middle_east= new  HashMap<String, HashMap<String, HashMap<String,String>>>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>>   Asia    =  new HashMap<String, HashMap<String, HashMap<String,String>>>();
     public HashMap<String, HashMap> Drinks  = new HashMap<String, HashMap>();
     public HashMap<String, HashMap<String,String>>AA     = new HashMap<String, HashMap<String,String>>();
     public HashMap<String, String>FMNCB    = new HashMap<String,String>();

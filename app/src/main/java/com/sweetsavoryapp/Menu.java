@@ -22,18 +22,18 @@ public class Menu extends AppCompatActivity {
         RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this));
-      List<FoodFormat> persons;
+        List<FoodFormat> persons;
 
 
         persons = new ArrayList<>();
-        Food food = new Food();
-        HashMap<String, HashMap<String, HashMap<String,String>>> American = food.American;
-        HashMap<String,HashMap<String, String>> App =  American.get("Appitizer");
-        HashMap<String, String> app2 = App.get("Fred Mac N Cheese Balls");
-        System.out.println(app2.values());
-        Collection aaa= American.values();
-        ArrayList<String> hello = new ArrayList<String>(aaa);
-        for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : food.American.entrySet()) {
+        Food foodList = new Food();
+      //  HashMap<String, HashMap<String, HashMap<String,String>>> American = foodList.American;
+       // HashMap<String,HashMap<String, String>> App =  American.get("Appitizer");
+        //HashMap<String, String> app2 = App.get("Fred Mac N Cheese Balls");
+        //System.out.println(app2.values());
+        //Collection aaa= American.values();
+        //ArrayList<String> hello = new ArrayList<String>(aaa);
+        for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : foodList.American.entrySet()) {
             for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet() ) {
                 persons.add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), "5", "6"));
                 //for (Map.Entry<String, String> c : b.getValue().entrySet()) {
