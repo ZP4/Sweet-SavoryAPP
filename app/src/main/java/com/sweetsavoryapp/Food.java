@@ -17,6 +17,7 @@ public class Food {
     public HashMap<String, HashMap<String, HashMap<String,String>>>   Europe  = new  HashMap<String, HashMap<String, HashMap<String,String>>>();
     public HashMap<String, HashMap<String, HashMap<String,String>>>   Middle_east= new  HashMap<String, HashMap<String, HashMap<String,String>>>();
     public HashMap<String, HashMap<String, HashMap<String,String>>>   Asia    =  new HashMap<String, HashMap<String, HashMap<String,String>>>();
+    public HashMap<String, HashMap<String, HashMap<String,String>>>  Africa =  new HashMap<String, HashMap<String, HashMap<String,String>>>();
     public HashMap<String, HashMap> Drinks  = new HashMap<String, HashMap>();
     public HashMap<String, HashMap<String,String>>AA     = new HashMap<String, HashMap<String,String>>();
     public HashMap<String, String>FMNCB    = new HashMap<String,String>();
@@ -118,7 +119,7 @@ public class Food {
         AD.put("Red Velvet Cupcakes", RVC);
         American.put("Desserts", AD);
 
-        HashMap<String, HashMap>BA      = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>BA      = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>BP       = new HashMap<String, String>();
         BP.put("Title", "Bagel Pops");
         BP.put("Description", "Small bagel bites filled with cream cheese, and served on a stick");
@@ -137,7 +138,7 @@ public class Food {
         HW.put("Price", "$39.99");
         HW.put("Servings", "20 pieces");
         HW.put("ID", "BKA03");
-        HashMap<String, HashMap>BE      = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>BE      = new HashMap<String, HashMap<String,String>>();
         HashMap<String, String>BKB      = new HashMap<String, String>();
         BKB.put("Title", "BK Burger");
         BKB.put("Description", "Half pound beef burger with hot pastrami and melted swiss cheese, served with steak fries");
@@ -156,7 +157,7 @@ public class Food {
         P.put("Price", "$59.99");
         P.put("Servings", "3 pies");
         P.put("ID", "BKE03");
-        HashMap<String, HashMap>BSD     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>BSD     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>BWC      = new HashMap<String, String>();
         BWC.put("Title", "Bacon-Wrapped Crab");
         BWC.put("Description", "Juicy strips of crab wrapped with thin cut bacon");
@@ -175,7 +176,7 @@ public class Food {
         MS.put("Price", "$39.99");
         MS.put("Servings", "1 tray");
         MS.put("ID", "BKS03");
-        HashMap<String, HashMap>BD      = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>BD      = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>NYC      = new HashMap<String, String>();
         NYC.put("Title", "New York Cheesecake");
         NYC.put("Description", "Iconic New York Cheesecake");
@@ -214,7 +215,7 @@ public class Food {
         BD.put("Cotton Candy",CC);
         Brooklyn.put("Desserts", BD);
 
-        HashMap<String, HashMap>SCA     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>SCA     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>CFS      = new HashMap<String, String>();
         CFS.put("Title", "Cripsy Fried Shrimp");
         CFS.put("Description", "Beer battered shrimp deep fried and served with tartar sauce");
@@ -233,7 +234,7 @@ public class Food {
         HP.put("Price", "$37.99");
         HP.put("Servings", "20 pieces");
         HP.put("ID", "SCA03");
-        HashMap<String, HashMap>SCE     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>SCE     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>CFSteak  = new HashMap<String, String>();
         CFSteak.put("Title", "Chicken Fried Steak");
         CFSteak.put("Description", "Pan fried steak cutlet coated with seasoned flour served with white gravy");
@@ -252,7 +253,7 @@ public class Food {
         BPR.put("Price", "$84.99 ");
         BPR.put("Servings", "20 Pieces");
         BPR.put("ID","SCE03");
-        HashMap<String, HashMap>SCSD    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>SCSD    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>SPF      = new HashMap<String, String>();
         SPF.put("Title", "Sweet Potato Fries");
         SPF.put("Description", "Air baked sweet potato fries seasoned with salt ");
@@ -271,7 +272,7 @@ public class Food {
         BB.put("Price", "$24.99");
         BB.put("Servings", "20 pieces");
         BB.put("ID","SCS03");
-        HashMap<String, HashMap>SCD    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>SCD    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>UDC      = new HashMap<String, String>();
         UDC.put("Title", "Upside Down Cake");
         UDC.put("Description", "Cake made with blackberries, apples, and strawberries");
@@ -309,7 +310,7 @@ public class Food {
         SCD.put("Peach Cobbler",PC);
         Southern_Comfort.put("Desserts",SCD);
 
-        HashMap<String, HashMap>HA     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>HA     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>VT      = new HashMap<String, String>();
         VT.put("Title", "Vegan Tostones");
         VT.put("Description", "Fried savory plantains sprinkled with salt and served with a garlic and oil dipping sauce");
@@ -328,7 +329,7 @@ public class Food {
         S.put("Price", "$39.99 ");
         S.put("Servings", "1 large bowl");
         S.put("ID","HPA03");
-        HashMap<String, HashMap>HE   = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>HE   = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>CM      = new HashMap<String, String>();
         CM.put("Title", "Chicken Mofongo");
         CM.put("Description", "Mashed plantains rounded into a bowl with seasoned chicken and vegetables inside");
@@ -347,7 +348,7 @@ public class Food {
         SP.put("Price", "$89.99");
         SP.put("Servings", "1 tray");
         SP.put("ID","HPE03");
-        HashMap<String , HashMap>HSD    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>HSD    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>ACG      = new HashMap<String, String>();
         ACG.put("Title", "Arroz con Gandules");
         ACG.put("Description", "Rice, pigeon peas and pork chunks, cooked with sofrito seasoning");
@@ -366,7 +367,7 @@ public class Food {
         Ba.put("Price", "$39.99 ");
         Ba.put("Servings", "30 pieces");
         Ba.put("ID","HPS03");
-        HashMap<String, HashMap>HD      = new HashMap<String, HashMap>();;
+        HashMap <String, HashMap<String,String>>HD      = new HashMap <String, HashMap<String,String>>();;
         HashMap<String, String>TL      = new HashMap<String, String>();
         TL.put("Title", "Tres Leche");
         TL.put("Description", "Sponge cake soaked in evaporated milk, condensed milk, and heavy cream");
@@ -404,7 +405,7 @@ public class Food {
         Hispanic.put("Desserts",HD);
 
         //CARRIBEAN
-        HashMap<String, HashMap>CAP   = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>CAP   = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>  BP1  = new HashMap<String, String>();
         BP1.put("Title", "Beef Patties");
         BP1.put("Description", "Meat patties filled with curried ground beef, onion, garlic, and Scotch bonnet pepper, plus a slew of aromatic herbs and spices");
@@ -423,7 +424,7 @@ public class Food {
         R.put("Price", "$29.99");
         R.put("Servings", "10 pieces");
         R.put("ID","CBA03");
-        HashMap<String, HashMap> CE   = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>> CE   = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String> JO  = new HashMap<String, String>();
         JO.put("Title", "Jamaican Oxtail");
         JO.put("Description", "Oxtail mixed with onion, green onion, garlic, ginger, chile pepper, soy sauce, thyme, salt, and pepper");
@@ -442,7 +443,7 @@ public class Food {
         CSPSPS.put("Price", "$54.99");
         CSPSPS.put("Servings", "10 pieces");
         CSPSPS.put("ID","CBE03");
-        HashMap<String, HashMap>  CSD  = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>CSD  = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String> CB  = new HashMap<String, String>();
         CB.put("Title", "Cornbread");
         CB.put("Description", "Bread hand crafted in a batter made of wheat flour, cornmeal, milk or buttermilk, eggs, salt, and usually sugar");
@@ -455,7 +456,7 @@ public class Food {
         PR.put("Price", "$34.99");
         PR.put("Servings", "1 tray");
         PR.put("ID","CBS02");
-        HashMap<String, HashMap>  CD  = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>  CD  = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String> CRC  = new HashMap<String, String>();
         CRC.put("Title", "Caribbean Rum Cake");
         CRC.put("Description", "Caramalized fruit soaked in rum flavored syrup and baked into a rich cake");
@@ -503,7 +504,7 @@ public class Food {
         Carribean.put("Desserts",CD );
 
         //EUROPE
-        HashMap<String, HashMap>EA  = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>> EA  = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>MPRB      = new HashMap<String, String>();
         MPRB.put("Title", "Mini Prosciutto Rice Balls");
         MPRB.put("Description", "Deep fried rice croquettes filled with prosciutto, provolone, and seasoned rice ");
@@ -534,7 +535,7 @@ public class Food {
         PL.put("Price", "$29.99 ");
         PL.put("Servings", "20 pieces");
         PL.put("ID","EUA05");
-        HashMap<String,HashMap>EE      = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>EE      = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>PAV      = new HashMap<String, String>();
         PAV.put("Title", "Penne ala Vodka");
         PAV.put("Description", "Al dente penne pasta with a creamy vodka sauce served with grilled chicken breast (does not contain alcohol)");
@@ -571,7 +572,7 @@ public class Food {
         WS.put("Price", "$84.99 ");
         WS.put("Servings", "10 pieces");
         WS.put("ID","EUE06");
-        HashMap<String, HashMap>ESD     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>ESD     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>VCS      = new HashMap<String, String>();
         VCS.put("Title", "Vegetarian Caprese Salad");
         VCS.put("Description", "Sliced tomato and mozzerlla, topped with basil and drizzeled with balsamic vinegar");
@@ -602,7 +603,7 @@ public class Food {
         SPA.put("Price", "$39.99 ");
         SPA.put("Servings", "10 pieces");
         SPA.put("ID","EUS05");
-        HashMap<String, HashMap>ED      = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>ED      = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>TC      = new HashMap<String, String>();
         TC.put("Title", "Tiramisu Cake");
         TC.put("Description", "Small buns made of yeasted dough topped with garlic.");
@@ -647,7 +648,7 @@ public class Food {
         Europe.put("Desserts",ED);
 
 
-        HashMap<String, HashMap>MEA     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>MEA     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>VBGP      = new HashMap<String, String>();
         VBGP.put("Title", "Vegan Baba Ghanoush & Pita");
         VBGP.put("Description", "Cooked eggplant mixed with onions, tomatoes, olive oil, served with pita slices");
@@ -666,7 +667,7 @@ public class Food {
         FM.put("Price", "$44.99 ");
         FM.put("Servings", "40 pieces");
         FM.put("ID","MAA03");
-        HashMap<String, HashMap>MEE     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>MEE     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>HPBK      = new HashMap<String, String>();
         HPBK.put("Title", "Halal Pepper & Beef Kabobs");
         HPBK.put("Description", "Sirloin steak chunks skewered with red and yellow bell peppers ang seared to perfection");
@@ -685,7 +686,7 @@ public class Food {
         CT.put("Price", "$59.99 ");
         CT.put("Servings", "1 tray");
         CT.put("ID","MAE03");
-        HashMap<String, HashMap>MESD    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>MESD    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>VSP      = new HashMap<String, String>();
         VSP.put("Title", "Vegetarian Spinach Pies");
         VSP.put("Description", "Spinach mixed with lemon and sumac, stuffed in a puffed pastry");
@@ -704,7 +705,7 @@ public class Food {
         VC.put("Price", "$44.99 ");
         VC.put("Servings", "1 tray");
         VC.put("ID","MAS03");
-        HashMap<String , HashMap>MED    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>> MED    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>AW      = new HashMap<String, String>();
         AW.put("Title", "Awameh");
         AW.put("Description", "A deep-fried pastry made of honey soaked dough");
@@ -741,7 +742,7 @@ public class Food {
         MED.put("Basboussa",BAS);
         Middle_east.put("Desserts",MED);
 
-        HashMap<String , HashMap>ASA    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>ASA    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>SR      = new HashMap<String, String>();
         SR.put("Title", "Summer Rolls");
         SR.put("Description", " cooked shrimp, rice noodles, and plenty of fresh herbs and vegetables for flavor and crunch wrapped with rice paper wrappers");
@@ -778,7 +779,7 @@ public class Food {
         CER.put("Price", "$29.99 ");
         CER.put("Servings", "10 egg rolls");
         CER.put("ID","AAA06");
-        HashMap<String, HashMap>ASE     = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>ASE     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>SPT      = new HashMap<String, String>();
         SPT.put("Title", "Shrimp Pad Thai");
         SPT.put("Description", "Stir fried rice noodles with eggs shrimp, garlic, red pepper and lime");
@@ -815,7 +816,7 @@ public class Food {
         DG.put("Price", "$69.99 ");
         DG.put("Servings", "1 tray");
         DG.put("ID","AAE06");
-        HashMap<String, HashMap>ASSD    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>ASSD    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>LP      = new HashMap<String, String>();
         LP.put("Title", "Lemongrass Peas");
         LP.put("Description", " Tangy lime and lemongrass served with rice and fried fish.");
@@ -852,7 +853,7 @@ public class Food {
         KO.put("Price", "$29.99 ");
         KO.put("Servings", "10 pieces");
         KO.put("ID","AAS06");
-        HashMap<String,HashMap>ASID      = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>> ASID      = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>SC      = new HashMap<String, String>();
         SC.put("Title", "5-Spice Cake");
         SC.put("Description", "caramel ginger ice cream and a berry compote");
@@ -898,7 +899,7 @@ public class Food {
         ASID.put("Chestnut Cookies",CCO);
         Asia.put("Desserts",ASID);
 
-        HashMap<String, HashMap>AFA =new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>AFA =new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>PSO      = new HashMap<String, String>();
         PSO.put("Title", "Pepper Soup");
         PSO.put("Description", "Chicken broth with heavy cream, peppers, onion");
@@ -911,7 +912,7 @@ public class Food {
         PPU.put("Price", "$29.99 ");
         PPU.put("Servings", "20 pieces");
         PPU.put("ID","AFA02");
-        HashMap<String, HashMap>AFE = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>AFE = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>EWE      = new HashMap<String, String>();
         EWE.put("Title", "Eba with egusi ");
         EWE.put("Description", "Melon seeds, cut of cow meat (shaki), dry fish, seasoned with pepper and salt");
@@ -924,7 +925,7 @@ public class Food {
         RFS.put("Price", "$54.99 ");
         RFS.put("Servings", "1 tray");
         RFS.put("ID","AFE02");
-        HashMap<String, HashMap>AFSD    = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>AFSD    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>MMO      = new HashMap<String, String>();
         MMO.put("Title", "Mixed Meat and Okra");
         MMO.put("Description", "Beef, chicken and turkey in a Liberian okra sauce.");
@@ -937,7 +938,7 @@ public class Food {
         SY.put("Price", "$29.99 ");
         SY.put("Servings", "1 tray");
         SY.put("ID","AFS02");
-        HashMap<String, HashMap>AFD  = new HashMap<String, HashMap>();
+        HashMap <String, HashMap<String,String>>AFD  = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>ME      = new HashMap<String, String>();
         ME.put("Title", "Melktert");
         ME.put("Description", "Creamy milk tart in a pastry shell and topped with cinnamon");
