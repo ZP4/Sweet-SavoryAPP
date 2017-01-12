@@ -46,9 +46,10 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv>
 
     @Override
     public void onBindViewHolder(FoodAdapterRv holder, int position) {
-    holder.Title.setText(ffa.get(position).getTitle());
+    holder.Title.setText(ffa.get(position).getTitle()+ " "+ffa.get(position).getId());
         holder.Descript.setText(ffa.get(position).getDescript());
         holder.Price.setText(ffa.get(position).getPrice());
+        holder.Serving.setText(ffa.get(position).getQuantaty());
 
     }
 
@@ -65,13 +66,15 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv>
     public static class FoodAdapterRv extends RecyclerView.ViewHolder {
 
       public   CardView cv;
-        public TextView Title, Price, Descript;
+        public TextView Title, Price, Descript, Serving;
         public FoodAdapterRv(View itemView) {
             super(itemView);
             cv = (CardView)itemView.findViewById(R.id.card);
             Title = (TextView)itemView.findViewById(R.id.Title);
             Price = (TextView)itemView.findViewById(R.id.Price);
             Descript = (TextView)itemView.findViewById(R.id.Description);
+            Serving = (TextView)itemView.findViewById(R.id.Servings);
+
             cv.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
