@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0704c47-a709-4ceb-9376-a8cc99c5b76e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_activity_list_view.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/Menu.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/StartActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/StartActivity.java" />
     </list>
     <ignored path="Sweet-SavoryAPP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,9 +54,85 @@
       <file leaf-file-name="Food.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/Food.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="360">
               <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
+||||||| ancestor
+            <state relative-caret-position="0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#6879#6911#0" expanded="true" />
+                <element signature="e#7996#8028#0" expanded="true" />
+                <element signature="e#9142#9174#0" expanded="true" />
+                <element signature="e#10198#10230#0" expanded="true" />
+                <element signature="e#11896#11928#0" expanded="true" />
+                <element signature="e#12990#13022#0" expanded="true" />
+                <element signature="e#14103#14135#0" expanded="true" />
+                <element signature="e#15131#15163#0" expanded="true" />
+                <element signature="e#16828#16860#0" expanded="true" />
+                <element signature="e#17917#17949#0" expanded="true" />
+                <element signature="e#19027#19059#0" expanded="true" />
+                <element signature="e#20090#20122#0" expanded="true" />
+                <element signature="e#21703#21735#0" expanded="true" />
+                <element signature="e#22806#22838#0" expanded="true" />
+                <element signature="e#24013#24045#0" expanded="true" />
+                <element signature="e#24769#24801#0" expanded="true" />
+                <element signature="e#26792#26824#0" expanded="true" />
+                <element signature="e#28559#28591#0" expanded="true" />
+                <element signature="e#30698#30730#0" expanded="true" />
+                <element signature="e#32437#32469#0" expanded="true" />
+                <element signature="e#34361#34393#0" expanded="true" />
+                <element signature="e#35494#35526#0" expanded="true" />
+                <element signature="e#36644#36676#0" expanded="true" />
+                <element signature="e#37776#37808#0" expanded="true" />
+                <element signature="e#39481#39513#0" expanded="true" />
+                <element signature="e#41665#41697#0" expanded="true" />
+                <element signature="e#43895#43927#0" expanded="true" />
+                <element signature="e#45883#45915#0" expanded="true" />
+                <element signature="e#47859#47891#0" expanded="true" />
+                <element signature="e#48622#48654#0" expanded="true" />
+                <element signature="e#49396#49428#0" expanded="true" />
+                <element signature="e#50138#50170#0" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="-3128">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#6879#6911#0" expanded="true" />
+                <element signature="e#7996#8028#0" expanded="true" />
+                <element signature="e#9142#9174#0" expanded="true" />
+                <element signature="e#10198#10230#0" expanded="true" />
+                <element signature="e#11896#11928#0" expanded="true" />
+                <element signature="e#12990#13022#0" expanded="true" />
+                <element signature="e#14103#14135#0" expanded="true" />
+                <element signature="e#15131#15163#0" expanded="true" />
+                <element signature="e#16828#16860#0" expanded="true" />
+                <element signature="e#17917#17949#0" expanded="true" />
+                <element signature="e#19027#19059#0" expanded="true" />
+                <element signature="e#20090#20122#0" expanded="true" />
+                <element signature="e#21703#21735#0" expanded="true" />
+                <element signature="e#22806#22838#0" expanded="true" />
+                <element signature="e#24013#24045#0" expanded="true" />
+                <element signature="e#24769#24801#0" expanded="true" />
+                <element signature="e#26792#26824#0" expanded="true" />
+                <element signature="e#28559#28591#0" expanded="true" />
+                <element signature="e#30698#30730#0" expanded="true" />
+                <element signature="e#32437#32469#0" expanded="true" />
+                <element signature="e#34361#34393#0" expanded="true" />
+                <element signature="e#35494#35526#0" expanded="true" />
+                <element signature="e#36644#36676#0" expanded="true" />
+                <element signature="e#37776#37808#0" expanded="true" />
+                <element signature="e#39481#39513#0" expanded="true" />
+                <element signature="e#41665#41697#0" expanded="true" />
+                <element signature="e#43895#43927#0" expanded="true" />
+                <element signature="e#45883#45915#0" expanded="true" />
+                <element signature="e#47859#47891#0" expanded="true" />
+                <element signature="e#48622#48654#0" expanded="true" />
+                <element signature="e#49396#49428#0" expanded="true" />
+                <element signature="e#50138#50170#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -66,8 +140,16 @@
       <file leaf-file-name="FoodAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/FoodAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="120">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+||||||| ancestor
+            <state relative-caret-position="836">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+=======
+            <state relative-caret-position="207">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -83,19 +165,56 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="cardview.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cardview.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+||||||| ancestor
+      <file leaf-file-name="StartActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/StartActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+=======
+      <file leaf-file-name="StartActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/StartActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
+<<<<<<< Updated upstream
           <provider selected="true" editor-type-id="android-designer2">
             <state />
+||||||| ancestor
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding />
+            </state>
+=======
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding />
+            </state>
+>>>>>>> Stashed changes
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="StartActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,6 +227,32 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+||||||| ancestor
+      <file leaf-file-name="main_activity_list_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main_activity_list_view.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_menu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+=======
+      <file leaf-file-name="activity_menu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
@@ -2396,14 +2541,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cardview.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="165">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+||||||| ancestor
+        <state relative-caret-position="255">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+=======
+        <state relative-caret-position="390">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/FoodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/FoodFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+>>>>>>> Stashed changes
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2414,6 +2595,148 @@
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+||||||| ancestor
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#6879#6911#0" expanded="true" />
+            <element signature="e#7996#8028#0" expanded="true" />
+            <element signature="e#9142#9174#0" expanded="true" />
+            <element signature="e#10198#10230#0" expanded="true" />
+            <element signature="e#11896#11928#0" expanded="true" />
+            <element signature="e#12990#13022#0" expanded="true" />
+            <element signature="e#14103#14135#0" expanded="true" />
+            <element signature="e#15131#15163#0" expanded="true" />
+            <element signature="e#16828#16860#0" expanded="true" />
+            <element signature="e#17917#17949#0" expanded="true" />
+            <element signature="e#19027#19059#0" expanded="true" />
+            <element signature="e#20090#20122#0" expanded="true" />
+            <element signature="e#21703#21735#0" expanded="true" />
+            <element signature="e#22806#22838#0" expanded="true" />
+            <element signature="e#24013#24045#0" expanded="true" />
+            <element signature="e#24769#24801#0" expanded="true" />
+            <element signature="e#26792#26824#0" expanded="true" />
+            <element signature="e#28559#28591#0" expanded="true" />
+            <element signature="e#30698#30730#0" expanded="true" />
+            <element signature="e#32437#32469#0" expanded="true" />
+            <element signature="e#34361#34393#0" expanded="true" />
+            <element signature="e#35494#35526#0" expanded="true" />
+            <element signature="e#36644#36676#0" expanded="true" />
+            <element signature="e#37776#37808#0" expanded="true" />
+            <element signature="e#39481#39513#0" expanded="true" />
+            <element signature="e#41665#41697#0" expanded="true" />
+            <element signature="e#43895#43927#0" expanded="true" />
+            <element signature="e#45883#45915#0" expanded="true" />
+            <element signature="e#47859#47891#0" expanded="true" />
+            <element signature="e#48622#48654#0" expanded="true" />
+            <element signature="e#49396#49428#0" expanded="true" />
+            <element signature="e#50138#50170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cardview.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/FoodFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/FoodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3128">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#6879#6911#0" expanded="true" />
+            <element signature="e#7996#8028#0" expanded="true" />
+            <element signature="e#9142#9174#0" expanded="true" />
+            <element signature="e#10198#10230#0" expanded="true" />
+            <element signature="e#11896#11928#0" expanded="true" />
+            <element signature="e#12990#13022#0" expanded="true" />
+            <element signature="e#14103#14135#0" expanded="true" />
+            <element signature="e#15131#15163#0" expanded="true" />
+            <element signature="e#16828#16860#0" expanded="true" />
+            <element signature="e#17917#17949#0" expanded="true" />
+            <element signature="e#19027#19059#0" expanded="true" />
+            <element signature="e#20090#20122#0" expanded="true" />
+            <element signature="e#21703#21735#0" expanded="true" />
+            <element signature="e#22806#22838#0" expanded="true" />
+            <element signature="e#24013#24045#0" expanded="true" />
+            <element signature="e#24769#24801#0" expanded="true" />
+            <element signature="e#26792#26824#0" expanded="true" />
+            <element signature="e#28559#28591#0" expanded="true" />
+            <element signature="e#30698#30730#0" expanded="true" />
+            <element signature="e#32437#32469#0" expanded="true" />
+            <element signature="e#34361#34393#0" expanded="true" />
+            <element signature="e#35494#35526#0" expanded="true" />
+            <element signature="e#36644#36676#0" expanded="true" />
+            <element signature="e#37776#37808#0" expanded="true" />
+            <element signature="e#39481#39513#0" expanded="true" />
+            <element signature="e#41665#41697#0" expanded="true" />
+            <element signature="e#43895#43927#0" expanded="true" />
+            <element signature="e#45883#45915#0" expanded="true" />
+            <element signature="e#47859#47891#0" expanded="true" />
+            <element signature="e#48622#48654#0" expanded="true" />
+            <element signature="e#49396#49428#0" expanded="true" />
+            <element signature="e#50138#50170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sweetsavoryapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+>>>>>>> Stashed changes
     </entry>
   </component>
 </project>
