@@ -26,49 +26,57 @@
                 android:layout_height="58dp"
                 android:text="Brooklyn"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button1"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:text="Hispanic"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button2"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:text="The Middle East"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button3"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:text="Asia"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button4"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:text="Carribean"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button5"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:text="Europe"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button6"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:text="Africa"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button7"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:text="The America"
                 android:textSize="28dp"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:id="@+id/button8"/>
         </LinearLayout>
     </ScrollView>
 
