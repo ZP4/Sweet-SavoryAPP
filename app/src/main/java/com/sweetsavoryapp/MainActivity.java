@@ -4,11 +4,20 @@ import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
+
+    @Override
+    public void setContentView(View view) {
+        super.setContentView(view);
+
+        FontChanger fontChanger = new FontChanger(getAssets(), "fonts/BRUSHSCI.ttf");
+        fontChanger.replaceFonts((ViewGroup)this.findViewById(android.R.id.content));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
