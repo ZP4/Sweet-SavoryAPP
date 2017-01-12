@@ -16,6 +16,7 @@ public class FoodFormat {
     String Price;
     String Quantaty;
 
+
     public String getTitle() {
         return Title;
     }

@@ -27,15 +27,15 @@ public class Menu extends AppCompatActivity {
 
         persons = new ArrayList<>();
         Food foodList = new Food();
-      //  HashMap<String, HashMap<String, HashMap<String,String>>> American = foodList.American;
-       // HashMap<String,HashMap<String, String>> App =  American.get("Appitizer");
+        //HashMap<String, HashMap<String, HashMap<String,String>>> American = foodList.American;
+        //HashMap<String,HashMap<String, String>> App =  American.get("Appitizer");
         //HashMap<String, String> app2 = App.get("Fred Mac N Cheese Balls");
         //System.out.println(app2.values());
         //Collection aaa= American.values();
         //ArrayList<String> hello = new ArrayList<String>(aaa);
         for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : foodList.American.entrySet()) {
             for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet() ) {
-                persons.add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), "5", "6"));
+                persons.add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), b.getValue().get("Servings"), b.getValue().get("ID")));
                 //for (Map.Entry<String, String> c : b.getValue().entrySet()) {
                     //System.out.println(c.toString());
                     //persons.add(new FoodFormat(c.getValue(), "Hello", "123", "5", "6"));

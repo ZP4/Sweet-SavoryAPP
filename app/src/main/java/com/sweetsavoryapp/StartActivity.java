@@ -27,7 +27,7 @@ public class StartActivity extends AppCompatActivity {
 
         final ImageView img = (ImageView) findViewById(R.id.startlogo);
 
-        final Intent i = new Intent(this, Menu.class);
+        final Intent i = new Intent(this, MainActivity.class);
         fadeOutAndHideImage(img, i);
 
     }
