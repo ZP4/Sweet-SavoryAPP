@@ -12,15 +12,67 @@
     tools:context="com.sweetsavoryapp.MainActivity">
 
 
-    <ListView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="2dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        android:layout_marginTop="25dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Brooklyn"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Hispanic"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="The Middle East"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Asia"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Carribean"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Europe"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Africa"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="The America"
+                android:textSize="28dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </ScrollView>
 
 
-    </ListView>
+
+
 </RelativeLayout>

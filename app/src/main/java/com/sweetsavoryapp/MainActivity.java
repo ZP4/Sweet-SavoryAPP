@@ -13,10 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle("Sweet N Savory");
-        String[] name={"Brooklyn","Hispanic","The Middle East","Asia","Carribean","Europe","Africa","The Americas"};
-        ArrayAdapter<String> Adapt=new ArrayAdapter<String>(this,R.layout.main_activity_list_view,name);
 
-        ListView title=(ListView)findViewById(R.id.listView);
-        title.setAdapter(Adapt);
+
+
     }
+
 }
