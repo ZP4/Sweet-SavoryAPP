@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         America.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+
             }
         });
 
