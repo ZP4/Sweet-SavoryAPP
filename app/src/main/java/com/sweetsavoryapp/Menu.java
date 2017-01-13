@@ -30,7 +30,7 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        Typeface s = Typeface.createFromAsset(getAssets(), "fonts/BRUSHSCI.ttf");
+        //Typeface s = Typeface.createFromAsset(getAssets(), "fonts/BRUSHSCI.ttf");
         RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this));
