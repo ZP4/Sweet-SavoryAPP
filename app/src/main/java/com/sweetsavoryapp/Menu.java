@@ -1,9 +1,12 @@
 package com.sweetsavoryapp;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,14 +14,23 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static android.R.attr.typeface;
 import static com.sweetsavoryapp.R.id.rv;
 
 public class Menu extends AppCompatActivity {
 
     @Override
+    public void setContentView(View view) {
+        super.setContentView(view);
+
+        FontChanger fontChanger = new FontChanger(getAssets(), "fonts/BRUSHSCI.ttf");
+        fontChanger.replaceFonts((ViewGroup)this.findViewById(android.R.id.content));
+    }
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        Typeface s = Typeface.createFromAsset(getAssets(), "fonts/BRUSHSCI.ttf");
         RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this));
