@@ -33,6 +33,8 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+        LinearLayout ll = (LinearLayout)findViewById(R.id.linear);
         //Typeface s = Typeface.createFromAsset(getAssets(), "fonts/BRUSHSCI.ttf");
         RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
         rv.setHasFixedSize(true);
@@ -49,17 +51,19 @@ public class Menu extends AppCompatActivity {
         //System.out.println(app2.values());
         //Collection aaa= American.values();
         //ArrayList<String> hello = new ArrayList<String>(aaa);
+      /*  TextView tv = new TextView(this);
+        tv.setText("hello");
+        tv.setTextSize(50);
+        *///ll.addView(tv);
         for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : foodList.American.entrySet()) {
-            LinearLayout ll = new LinearLayout(this);
-            ll.setOrientation(LinearLayout.VERTICAL);
-            TextView tv = new TextView(this);
-            tv.setText(all.getKey());
-            ll.addView(tv);
 
-            for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet() ) {
-                persons.add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), b.getValue().get("Servings"), b.getValue().get("ID")));
+            persons .add(new FoodFormat(all.getKey(),"  ","  ","  ","  ",true));
+
+
+            for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet()) {
+                persons .add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), b.getValue().get("Servings"), b.getValue().get("ID"),false));
                 //for (Map.Entry<String, String> c : b.getValue().entrySet()) {
-                    //System.out.println(c.toString());
+                //System.out.println(c.toString());
                     //persons.add(new FoodFormat(c.getValue(), "Hello", "123", "5", "6"));
                 //}
             }

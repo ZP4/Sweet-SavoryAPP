@@ -3,22 +3,23 @@ package com.sweetsavoryapp;
 import java.net.FileNameMap;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 
 /**
  * Created by ZP4 on 12/2/2016.
  */
 
 public class Food {
-    public  HashMap<String, HashMap<String, HashMap<String,String>>>  American = new  HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>>  Brooklyn= new HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>>   Southern_Comfort= new HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>> Hispanic= new HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>>   Carribean = new HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>>   Europe  = new  HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>>   Middle_east= new  HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>>   Asia    =  new HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap<String, HashMap<String,String>>>  Africa =  new HashMap<String, HashMap<String, HashMap<String,String>>>();
-    public HashMap<String, HashMap> Drinks  = new HashMap<String, HashMap>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>> American = new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>  Brooklyn= new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>   Southern_Comfort= new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>> Hispanic= new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>   Carribean = new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>   Europe  = new  LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>   Middle_east= new  LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>   Asia    =  new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>  Africa =  new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
+    public LinkedHashMap<String, HashMap> Drinks  = new LinkedHashMap<String, HashMap>();
     public HashMap<String, HashMap<String,String>>AA     = new HashMap<String, HashMap<String,String>>();
     public HashMap<String, String>FMNCB    = new HashMap<String,String>();
 
@@ -101,6 +102,14 @@ public class Food {
         RVC.put("Servings", "10 cupcakes");
         RVC.put("ID", "USD03");
 
+        AA.put("Fred Mac N Cheese Balls", FMNCB);
+        AA.put("Philly Cheeseteak Sliders",PCS);
+        AA.put("New England Clam Chowder Soup",NECCS);
+        American.put("Appitizer", AA);
+        AE.put("Sliced Meatloaf", SM);
+        AE.put("Carved Double Roasted Chicken", CDRC);
+        AE.put("Paremsan Crusted Ttilapia", PCT);
+        American.put("Entrees", AE);
         AD.put("Apple Pie", AP);
         AD.put("Ice Cream", IC);
         AD.put("Red Velvet Cupcakes", RVC);
@@ -109,15 +118,8 @@ public class Food {
         ASD.put("Potato Salad",PS);
         ASD.put("Side Salad",SS);
         American.put("Side Dish",ASD);
-        AE.put("Sliced Meatloaf", SM);
-        AE.put("Carved Double Roasted Chicken", CDRC);
-        AE.put("Paremsan Crusted Ttilapia", PCT);
-        American.put("Entrees", AE);
 
-        AA.put("Fred Mac N Cheese Balls", FMNCB);
-        AA.put("Philly Cheeseteak Sliders",PCS);
-        AA.put("New England Clam Chowder Soup",NECCS);
-        American.put("Appitizer", AA);
+
 
 
         HashMap <String, HashMap<String,String>>BA      = new HashMap <String, HashMap<String,String>>();

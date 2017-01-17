@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,11 +47,22 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv>
 
     @Override
     public void onBindViewHolder(FoodAdapterRv holder, int position) {
-    holder.Title.setText(ffa.get(position).getTitle()+ " "+ffa.get(position).getId());
+    if(!ffa.get(position).getHeader()) {
+
+
+        holder.Title.setText(ffa.get(position).getTitle() + " " + ffa.get(position).getId());
         holder.Descript.setText(ffa.get(position).getDescript());
         holder.Price.setText(ffa.get(position).getPrice());
         holder.Serving.setText(ffa.get(position).getQuantaty());
-
+    }else if(ffa.get(position).getHeader()){
+        holder.Title.setTextSize(TypedValue.COMPLEX_UNIT_SP, 40);
+        holder.Title.setGravity(View.TEXT_ALIGNMENT_CENTER);
+        holder.Title.setPadding(170, 0,0,0);
+        holder.Title.setText(ffa.get(position).getTitle());
+        holder.Descript.setText(ffa.get(position).getDescript());
+        holder.Price.setText(ffa.get(position).getPrice());
+        holder.Serving.setText(ffa.get(position).getQuantaty());
+    }
     }
 
     @Override

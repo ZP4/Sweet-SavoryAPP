@@ -16,6 +16,18 @@ public class FoodFormat {
     String Price;
     String Quantaty;
 
+    public Boolean getHeader() {
+        return Header;
+    }
+
+    public void setHeader(Boolean header) {
+        this.Header = header;
+    }
+
+    Boolean Header;
+
+
+
 
     public String getTitle() {
         return Title;
@@ -59,15 +71,13 @@ public class FoodFormat {
 
     String Id;
 
-    FoodFormat(String title, String descript, String price, String quantaty, String id){
+    FoodFormat(String title, String descript, String price, String quantaty, String id, boolean header){
     this.Title = title;
         this.Descript = descript;
         this.Price = price;
         this.Quantaty = quantaty;
         this.Id =id;
-
-
-
+        this.Header = header;
 
     }
 
