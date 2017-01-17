@@ -5,8 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -37,6 +40,7 @@ public class Menu extends AppCompatActivity {
         List<FoodFormat> persons;
 
 
+
         persons = new ArrayList<>();
         Food foodList = new Food();
         //HashMap<String, HashMap<String, HashMap<String,String>>> American = foodList.American;
@@ -46,6 +50,12 @@ public class Menu extends AppCompatActivity {
         //Collection aaa= American.values();
         //ArrayList<String> hello = new ArrayList<String>(aaa);
         for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : foodList.American.entrySet()) {
+            LinearLayout ll = new LinearLayout(this);
+            ll.setOrientation(LinearLayout.VERTICAL);
+            TextView tv = new TextView(this);
+            tv.setText(all.getKey());
+            ll.addView(tv);
+
             for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet() ) {
                 persons.add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), b.getValue().get("Servings"), b.getValue().get("ID")));
                 //for (Map.Entry<String, String> c : b.getValue().entrySet()) {

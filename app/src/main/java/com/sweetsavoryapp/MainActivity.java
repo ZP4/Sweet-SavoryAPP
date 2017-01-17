@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(brooklynIntent);
             }
         });
+
         Button Hispanic =(Button) findViewById(R.id.button2);
         Hispanic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(hispanicIntent);
             }
         });
+
         Button TheMiddleEast =(Button) findViewById(R.id.button3);
         TheMiddleEast.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(middleEastIntent);
             }
         });
+
         Button Asia =(Button) findViewById(R.id.button4);
         Asia.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(asiaIntent);
             }
         });
+
         Button Carribean =(Button) findViewById(R.id.button5);
         Carribean.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(carribeanIntent);
             }
         });
+
         Button Europe =(Button) findViewById(R.id.button6);
         Europe.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(europeIntent);
             }
         });
+
         Button Africa =(Button) findViewById(R.id.button7);
         Africa.setOnClickListener(new View.OnClickListener() {
             @Override

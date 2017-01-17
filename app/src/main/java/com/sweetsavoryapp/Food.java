@@ -101,23 +101,24 @@ public class Food {
         RVC.put("Servings", "10 cupcakes");
         RVC.put("ID", "USD03");
 
+        AD.put("Apple Pie", AP);
+        AD.put("Ice Cream", IC);
+        AD.put("Red Velvet Cupcakes", RVC);
+        American.put("Desserts", AD);
+        ASD.put("Mashed Potatoes",MP);
+        ASD.put("Potato Salad",PS);
+        ASD.put("Side Salad",SS);
+        American.put("Side Dish",ASD);
+        AE.put("Sliced Meatloaf", SM);
+        AE.put("Carved Double Roasted Chicken", CDRC);
+        AE.put("Paremsan Crusted Ttilapia", PCT);
+        American.put("Entrees", AE);
 
         AA.put("Fred Mac N Cheese Balls", FMNCB);
         AA.put("Philly Cheeseteak Sliders",PCS);
         AA.put("New England Clam Chowder Soup",NECCS);
         American.put("Appitizer", AA);
-        AE.put("Sliced Meatloaf", SM);
-        AE.put("Carved Double Roasted Chicken", CDRC);
-        AE.put("Paremsan Crusted Ttilapia", PCT);
-        American.put("Entrees", AE);
-        ASD.put("Mashed Potatoes",MP);
-        ASD.put("Potato Salad",PS);
-        ASD.put("Side Salad",SS);
-        American.put("Side Dish",ASD);
-        AD.put("Apple Pie", AP);
-        AD.put("Ice Cream", IC);
-        AD.put("Red Velvet Cupcakes", RVC);
-        American.put("Desserts", AD);
+
 
         HashMap <String, HashMap<String,String>>BA      = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>BP       = new HashMap<String, String>();
@@ -195,25 +196,25 @@ public class Food {
         CC.put("Price", "$19.99");
         CC.put("Servings", "10 bags");
         CC.put("ID", "BKD03");
-        
 
 
-        BA.put("Bagel Pops", BP);
-        BA.put("Coney Island Hot Dog", CIHD);
-        BA.put("Hot Wings", HW);
-        Brooklyn.put("Appitizer", BA);
-        BE.put("BK Burger", BKB);
-        BE.put("Pulled Pork", PP);
-        BE.put("Pizza", P);
-        Brooklyn.put("Entrees", BE);
-        BSD.put("Bacon-Wrapped Crab",BWC);
-        BSD.put("Fried Calamari", FC);
-        BSD.put("Mozzarella Sticks", MS);
-        Brooklyn.put("Side Dish",BSD);
         BD.put("New York Cheesecake",NYC);
         BD.put("Italian Bakery Canolis",IBC);
         BD.put("Cotton Candy",CC);
         Brooklyn.put("Desserts", BD);
+        BSD.put("Bacon-Wrapped Crab",BWC);
+        BSD.put("Fried Calamari", FC);
+        BSD.put("Mozzarella Sticks", MS);
+        Brooklyn.put("Side Dish",BSD);
+        BE.put("BK Burger", BKB);
+        BE.put("Pulled Pork", PP);
+        BE.put("Pizza", P);
+        Brooklyn.put("Entrees", BE);
+        BA.put("Bagel Pops", BP);
+        BA.put("Coney Island Hot Dog", CIHD);
+        BA.put("Hot Wings", HW);
+        Brooklyn.put("Appitizer", BA);
+
 
         HashMap <String, HashMap<String,String>>SCA     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>CFS      = new HashMap<String, String>();
@@ -292,23 +293,22 @@ public class Food {
         PC.put("Servings", "10 pieces");
         PC.put("ID","SCD03");
 
-
-        SCA.put("Cripsy Fried Shrimp", CFS);
-        SCA.put("Chicken and Waffle Minis", CAWM);
-        SCA.put("Hushpuppies",HP);
-        Southern_Comfort.put("Appitizer", SCA);
-        SCE.put("Chicken Fried Steak", CFSteak);
-        SCE.put("Blackened Catfish", BC);
-        SCE.put("Barbeque Pork Ribs",BPR);
-        Southern_Comfort.put("Entrees",SCE);
-        SCSD.put("Sweet Potato Fries",SPF);
-        SCSD.put("Barbeque Baked Beans",BBB);
-        SCSD.put("Buttery Biscuits",BB);
-        Southern_Comfort.put("Side Dish",SCSD);
         SCD.put("Upside Down Cake",UDC);
         SCD.put("Beignets",B);
         SCD.put("Peach Cobbler",PC);
         Southern_Comfort.put("Desserts",SCD);
+        SCSD.put("Sweet Potato Fries",SPF);
+        SCSD.put("Barbeque Baked Beans",BBB);
+        SCSD.put("Buttery Biscuits",BB);
+        Southern_Comfort.put("Side Dish",SCSD);
+        SCE.put("Chicken Fried Steak", CFSteak);
+        SCE.put("Blackened Catfish", BC);
+        SCE.put("Barbeque Pork Ribs",BPR);
+        Southern_Comfort.put("Entrees",SCE);
+        SCA.put("Cripsy Fried Shrimp", CFS);
+        SCA.put("Chicken and Waffle Minis", CAWM);
+        SCA.put("Hushpuppies",HP);
+        Southern_Comfort.put("Appitizer", SCA);
 
         HashMap <String, HashMap<String,String>>HA     = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>VT      = new HashMap<String, String>();
@@ -386,23 +386,24 @@ public class Food {
         SO.put("Price", "$29.99 ");
         SO.put("Servings", "20 pieces");
         SO.put("ID","HPD03");
+        HD.put("Tres Leche",TL);
+        HD.put("Churros", C);
+        HD.put("Sopaipillas", SO);
+        Hispanic.put("Desserts",HD);
+        HSD.put("Arroz con Gandules",ACG);
+        HSD.put("Samosas",Sa);
+        HSD.put("Bacalaitos",Ba);
+        Hispanic.put("Side Dish",HSD);
+        HE.put("Chicken Mofongo",CM);
+        HE.put("Beef Carnitas",BCa);
+        HE.put("Seafood Paella",SP);
+        Hispanic.put("Entrees", HE);
 
         HA.put("Vegan Tostones",VT);
         HA.put("Sorullitos de Maiz",SDM);
         HA.put("Sancocho",S);
         Hispanic.put("Appitizer", HA);
-        HE.put("Chicken Mofongo",CM);
-        HE.put("Beef Carnitas",BCa);
-        HE.put("Seafood Paella",SP);
-        Hispanic.put("Entrees", HE);
-        HSD.put("Arroz con Gandules",ACG);
-        HSD.put("Samosas",Sa);
-        HSD.put("Bacalaitos",Ba);
-        Hispanic.put("Side Dish",HSD);
-        HD.put("Tres Leche",TL);
-        HD.put("Churros", C);
-        HD.put("Sopaipillas", SO);
-        Hispanic.put("Desserts",HD);
+
 
         //CARRIBEAN
         HashMap <String, HashMap<String,String>>CAP   = new HashMap <String, HashMap<String,String>>();
@@ -498,10 +499,13 @@ public class Food {
         CD.put("Bread Pudding", BP);
         CD.put("Pineapple Marmalade",PM );
 
-        Carribean.put("Appetizer", CAP );
-        Carribean.put("Entrees", CE);
-        Carribean.put("Side Dishes",CSD );
         Carribean.put("Desserts",CD );
+        Carribean.put("Side Dishes",CSD );
+        Carribean.put("Entrees", CE);
+        Carribean.put("Appetizer", CAP );
+
+
+
 
         //EUROPE
         HashMap <String, HashMap<String,String>> EA  = new HashMap <String, HashMap<String,String>>();
@@ -623,12 +627,16 @@ public class Food {
         MA.put("Servings", "20 pieces");
         MA.put("ID","EUD03");
 
-        EA.put("Mini Prosciutto Rice Balls",MPRB);
-        EA.put("Vegan Spicy Eggplant Capanota",VSEC);
-        EA.put("Cheddar Gougeres",CG);
-        EA.put("Prawn Canapes",PCA);
-        EA.put("Potato Latkes",PL);
-        Europe.put("Appitizer", EA);
+        ED.put("Tiramisu Cake",TC);
+        ED.put("Pampushki",PA);
+        ED.put("Macaroons",MA);
+        Europe.put("Desserts",ED);
+        ESD.put("Vegetarian Caprese Salad",VCS);
+        ESD.put("Perogies",PE);
+        ESD.put("Vegetarian Greek Salad",VGS);
+        ESD.put("Antipasta",A);
+        ESD.put("Spanokopita",SPA);
+        Europe.put("Side Dish",ESD);
         EE.put("Penne ala Vodka",PAV);
         EE.put("Udoli Doma", UD);
         EE.put("Halal Beef Souvlaki",HBS);
@@ -636,16 +644,13 @@ public class Food {
         EE.put("Maultaschen",M);
         EE.put("Wiener Schnitzel",WS);
         Europe.put("Entrees", EE);
-        ESD.put("Vegetarian Caprese Salad",VCS);
-        ESD.put("Perogies",PE);
-        ESD.put("Vegetarian Greek Salad",VGS);
-        ESD.put("Antipasta",A);
-        ESD.put("Spanokopita",SPA);
-        Europe.put("Side Dish",ESD);
-        ED.put("Tiramisu Cake",TC);
-        ED.put("Pampushki",PA);
-        ED.put("Macaroons",MA);
-        Europe.put("Desserts",ED);
+        EA.put("Mini Prosciutto Rice Balls",MPRB);
+        EA.put("Vegan Spicy Eggplant Capanota",VSEC);
+        EA.put("Cheddar Gougeres",CG);
+        EA.put("Prawn Canapes",PCA);
+        EA.put("Potato Latkes",PL);
+        Europe.put("Appitizer", EA);
+
 
 
         HashMap <String, HashMap<String,String>>MEA     = new HashMap <String, HashMap<String,String>>();
@@ -725,22 +730,25 @@ public class Food {
         BAS.put("Servings", "1 tray");
         BAS.put("ID","MAD03");
 
-        MEA.put("Vegan Baba Ghanoush & Pita",VBGP);
-        MEA.put("Sambosas",SA);
-        MEA.put("Falafel Minis",FM);
-        Middle_east.put("Appitizer",MEA);
-        MEE.put("Halal Pepper & Beef Kabobs",HPBK);
-        MEE.put("Halal Lamb Shawarma",HLS);
-        MEE.put("Chicken Tandoori",CT);
-        Middle_east.put("Entrees", MEE);
-        MESD.put("Vegetarian Spinach Pies",VSP);
-        MESD.put("Vegan Tabbouleh Salad",VTS);
-        MESD.put("Vegetarian Couscous",VC);
-        Middle_east.put("Side Dish",MESD);
         MED.put("Awameh",AW);
         MED.put("Baklava",BAK);
         MED.put("Basboussa",BAS);
         Middle_east.put("Desserts",MED);
+        MESD.put("Vegetarian Spinach Pies",VSP);
+        MESD.put("Vegan Tabbouleh Salad",VTS);
+        MESD.put("Vegetarian Couscous",VC);
+        Middle_east.put("Side Dish",MESD);
+        MEE.put("Halal Pepper & Beef Kabobs",HPBK);
+        MEE.put("Halal Lamb Shawarma",HLS);
+        MEE.put("Chicken Tandoori",CT);
+        Middle_east.put("Entrees", MEE);
+        MEA.put("Vegan Baba Ghanoush & Pita",VBGP);
+        MEA.put("Sambosas",SA);
+        MEA.put("Falafel Minis",FM);
+        Middle_east.put("Appitizer",MEA);
+
+
+
 
         HashMap <String, HashMap<String,String>>ASA    = new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>SR      = new HashMap<String, String>();
@@ -873,20 +881,10 @@ public class Food {
         CCO.put("Servings", "20 pieces");
         CCO.put("ID","AAD03");
 
-        ASA.put("Summer Rolls",SR);
-        ASA.put("Taiwanese Meatballs",TM);
-        ASA.put("Shrimp Tempura",ST);
-        ASA.put("Beef Negimaki",BN);
-        ASA.put("Kimchi Dumplings",KD);
-        ASA.put("Chicken Egg Rolls",CER);
-        Asia.put("Appitizer",ASA);
-        ASE.put("Shrimp Pad Thai",SPT);
-        ASE.put("Vegan Vegetable Mu Shu",VVMS);
-        ASE.put("Sesame Seared Tuna",SST);
-        ASE.put("Beef Teryiaki", BT);
-        ASE.put("Bulgogi", BU);
-        ASE.put("Dak Galbi", DG);
-        Asia.put("Entrees",ASE);
+        ASID.put("5-Spice Cake",SC);
+        ASID.put("Chocolate Mochi",CMO);
+        ASID.put("Chestnut Cookies",CCO);
+        Asia.put("Desserts",ASID);
         ASSD.put("Lemongrass Peas",LP);
         ASSD.put("Udon Noodles",UN);
         ASSD.put("Egg Drop Soup",EDS);
@@ -894,10 +892,22 @@ public class Food {
         ASSD.put("Kimchi",K);
         ASSD.put("Kongnamul",KO);
         Asia.put("Side Dish",ASSD);
-        ASID.put("5-Spice Cake",SC);
-        ASID.put("Chocolate Mochi",CMO);
-        ASID.put("Chestnut Cookies",CCO);
-        Asia.put("Desserts",ASID);
+        ASE.put("Shrimp Pad Thai",SPT);
+        ASE.put("Vegan Vegetable Mu Shu",VVMS);
+        ASE.put("Sesame Seared Tuna",SST);
+        ASE.put("Beef Teryiaki", BT);
+        ASE.put("Bulgogi", BU);
+        ASE.put("Dak Galbi", DG);
+        Asia.put("Entrees",ASE);
+
+        ASA.put("Summer Rolls",SR);
+        ASA.put("Taiwanese Meatballs",TM);
+        ASA.put("Shrimp Tempura",ST);
+        ASA.put("Beef Negimaki",BN);
+        ASA.put("Kimchi Dumplings",KD);
+        ASA.put("Chicken Egg Rolls",CER);
+        Asia.put("Appitizer",ASA);
+
 
         HashMap <String, HashMap<String,String>>AFA =new HashMap <String, HashMap<String,String>>();
         HashMap<String, String>PSO      = new HashMap<String, String>();
@@ -952,18 +962,19 @@ public class Food {
         KOE.put("Servings", "20 pieces");
         KOE.put("ID","AFD02");
 
-        AFA.put("Pepper Soup",PSO);
-        AFA.put("Puff Puff",PPU);
-        Africa.put("Appitizer",AFA);
-        AFE.put("Eba with egusi",EWE);
-        AFE.put("Rice with fish and soup",RFS);
-        Africa.put("Entrees",AFE);
-        AFSD.put("Mixed Meat and Okra",MMO);
-        AFSD.put("Sweet Yams",SY);
-        Africa.put("Side Dish",AFSD);
         AFD.put("Melktert",ME);
         AFD.put("Koeksisters",KOE);
         Africa.put("Desserts",AFD);
+        AFSD.put("Mixed Meat and Okra",MMO);
+        AFSD.put("Sweet Yams",SY);
+        Africa.put("Side Dish",AFSD);
+        AFE.put("Eba with egusi",EWE);
+        AFE.put("Rice with fish and soup",RFS);
+        Africa.put("Entrees",AFE);
+        AFA.put("Pepper Soup",PSO);
+        AFA.put("Puff Puff",PPU);
+        Africa.put("Appitizer",AFA);
+
 
         HashMap<String, String>COCO      = new HashMap<String, String>();
         COCO.put("Title", "Coca Cola");
