@@ -73,6 +73,7 @@ public class Menu extends AppCompatActivity {
     }
         System.out.println(persons.get(1).getId().toString());
         FoodAdapter ff = new FoodAdapter(persons, getApplicationContext());
+        ff.notifyItemRangeChanged(0, ff.getItemCount());
         rv.setAdapter(ff);
 
 
