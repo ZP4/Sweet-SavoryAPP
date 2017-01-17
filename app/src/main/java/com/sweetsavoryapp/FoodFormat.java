@@ -11,10 +11,10 @@ import java.util.Objects;
  */
 
 public class FoodFormat {
-    String Title;
-    String Descript;
-    String Price;
-    String Quantaty;
+   public String Title;
+    public String Descript;
+    public String Price;
+    public String Quantaty;
 
     public Boolean getHeader() {
         return Header;
