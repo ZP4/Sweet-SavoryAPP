@@ -1,26 +1,19 @@
 package com.sweetsavoryapp;
 
-import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static android.R.attr.typeface;
-import static com.sweetsavoryapp.R.id.rv;
-
-public class Menu extends AppCompatActivity {
+public class South extends AppCompatActivity {
 
     @Override
     public void setContentView(View view) {
@@ -33,7 +26,7 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        getSupportActionBar().setTitle("American");
+        getSupportActionBar().setTitle("Southern");
 
         LinearLayout ll = (LinearLayout)findViewById(R.id.linear);
         //Typeface s = Typeface.createFromAsset(getAssets(), "fonts/BRUSHSCI.ttf");
@@ -56,7 +49,7 @@ public class Menu extends AppCompatActivity {
         tv.setText("hello");
         tv.setTextSize(50);
         *///ll.addView(tv);
-        for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : foodList.American.entrySet()) {
+        for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : foodList.Southern_Comfort.entrySet()) {
 
             persons .add(new FoodFormat(all.getKey(),"  ","  ","  ","  ",true));
 

@@ -18,6 +18,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu"/>
+        <activity android:name=".African"/>
+        <activity android:name=".Asian"/>
+        <activity android:name=".Brooklyn"/>
+        <activity android:name=".Carribean"/>
+        <activity android:name=".European"/>
+        <activity android:name=".Hispanic"/>
+        <activity android:name=".South"/>
+        <activity android:name=".MiddleEast"/>
     </application>
 
 </manifest>
