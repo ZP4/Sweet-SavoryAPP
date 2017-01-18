@@ -33,6 +33,7 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        getSupportActionBar().setTitle("American");
 
         LinearLayout ll = (LinearLayout)findViewById(R.id.linear);
         //Typeface s = Typeface.createFromAsset(getAssets(), "fonts/BRUSHSCI.ttf");
