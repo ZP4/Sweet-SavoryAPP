@@ -32,13 +32,14 @@ public class MainActivity extends AppCompatActivity {
         setTitle("Sweet N Savory");
 
         final Intent americanIntent = new Intent(this, Menu.class);
-        final Intent brooklynIntent = new Intent(this, Menu.class);
-        final Intent hispanicIntent = new Intent(this, Menu.class);
-        final Intent middleEastIntent = new Intent(this, Menu.class);
-        final Intent asiaIntent = new Intent(this, Menu.class);
-        final Intent carribeanIntent = new Intent(this, Menu.class);
-        final Intent europeIntent = new Intent(this, Menu.class);
-        final Intent africaIntent = new Intent(this, Menu.class);
+        final Intent SouthernIntent = new Intent(this, South.class);
+        final Intent brooklynIntent = new Intent(this, Brooklyn.class);
+        final Intent hispanicIntent = new Intent(this, Hispanic.class);
+        final Intent middleEastIntent = new Intent(this, MiddleEast.class);
+        final Intent asiaIntent = new Intent(this, Asian.class);
+        final Intent carribeanIntent = new Intent(this, Carribean.class);
+        final Intent europeIntent = new Intent(this, European.class);
+        final Intent africaIntent = new Intent(this, African.class);
 
         Button Brooklyn =(Button) findViewById(R.id.button1);
         Brooklyn.setOnClickListener(new View.OnClickListener() {
@@ -102,7 +103,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(americanIntent);
             }
         });
-
+        Button SouthernConfort = (Button) findViewById(R.id.button9);
+        SouthernConfort.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(SouthernIntent);
+            }
+        });
 
     }
 
