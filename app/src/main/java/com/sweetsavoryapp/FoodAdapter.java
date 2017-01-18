@@ -57,7 +57,7 @@ if(ffa.get(position).getTitle().equals("Appitizer")||ffa.get(position).getTitle(
 }*/     holder.cv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               
+
             }
         });
         holder.Title.setText(ffa.get(position).getTitle() + " " + ffa.get(position).getId());
@@ -106,13 +106,7 @@ if(ffa.get(position).getTitle().equals("Appitizer")||ffa.get(position).getTitle(
             Descript = (TextView)itemView.findViewById(R.id.Description);
             Serving = (TextView)itemView.findViewById(R.id.Servings);
 
-            cv.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
-                    startActivity(browserIntent);
-                                    }
-            });
+
         }
     }
     public static void launch(){
