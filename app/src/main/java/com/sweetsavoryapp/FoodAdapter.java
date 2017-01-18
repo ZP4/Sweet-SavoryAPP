@@ -1,6 +1,7 @@
 package com.sweetsavoryapp;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.CardView;
@@ -9,6 +10,7 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,13 +26,12 @@ import java.util.List;
 
 public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv> {
 
-    public Context getContext() {
-        return context;
-    }
 
     @Override
     public FoodAdapterRv onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.cardview, parent, false);
+
+
         FoodAdapterRv FDA = new FoodAdapterRv(v);
         return FDA;
     }
@@ -47,14 +48,18 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodAdapterRv>
 
     @Override
     public void onBindViewHolder(FoodAdapterRv holder, int position) {
-
         //if(!ffa.get(position).getHeader()) {
 /*
 if(ffa.get(position).getTitle().equals("Appitizer")||ffa.get(position).getTitle().equals("Entrees")||ffa.get(position).getTitle().equals("Desserts")||ffa.get(position).getTitle().equals("Side Dish")){
 
 
     holder.Title.setTextSize(TypedValue.COMPLEX_UNIT_SP, 30);
-}*/
+}*/     holder.cv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               
+            }
+        });
         holder.Title.setText(ffa.get(position).getTitle() + " " + ffa.get(position).getId());
         holder.Descript.setText(ffa.get(position).getDescript());
         holder.Price.setText(ffa.get(position).getPrice());
@@ -69,6 +74,7 @@ if(ffa.get(position).getTitle().equals("Appitizer")||ffa.get(position).getTitle(
         holder.Serving.setText(ffa.get(position).getQuantaty());
     }
     */}
+
 
     @Override
     public int getItemViewType(int position) {
@@ -85,6 +91,9 @@ if(ffa.get(position).getTitle().equals("Appitizer")||ffa.get(position).getTitle(
         super.onAttachedToRecyclerView(recyclerView);
     }
 
+
+
+
     public static class FoodAdapterRv extends RecyclerView.ViewHolder {
 
       public   CardView cv;
@@ -100,7 +109,8 @@ if(ffa.get(position).getTitle().equals("Appitizer")||ffa.get(position).getTitle(
             cv.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                    startActivity(browserIntent);
                                     }
             });
         }
