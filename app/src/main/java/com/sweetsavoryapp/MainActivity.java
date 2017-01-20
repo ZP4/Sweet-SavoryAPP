@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         final Intent carribeanIntent = new Intent(this, Carribean.class);
         final Intent europeIntent = new Intent(this, European.class);
         final Intent africaIntent = new Intent(this, African.class);
+        final Intent contactUs = new Intent(this, ContactUs.class);
 
         Button Brooklyn =(Button) findViewById(R.id.button1);
         Brooklyn.setOnClickListener(new View.OnClickListener() {
@@ -108,6 +109,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(SouthernIntent);
+            }
+        });
+        Button Contact =(Button) findViewById(R.id.button10);
+        Contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(contactUs);
             }
         });
 
