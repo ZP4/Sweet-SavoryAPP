@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:id="@+id/activity_contact_us"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,4 +12,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.sweetsavoryapp.ContactUs">
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Sweet N Savory \n
+        TEL: 718-491-5441
+        Fax: 718-491-5442
+        ADDRESS: 8301 Shore Road, Brooklyn, NY 11209"
+        android:textSize="14dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/nuappscontact"
+        />
+
+
+</LinearLayout>

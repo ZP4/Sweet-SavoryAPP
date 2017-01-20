@@ -25,6 +25,7 @@
         <activity android:name=".Hispanic"/>
         <activity android:name=".South"/>
         <activity android:name=".MiddleEast"/>
+        <activity android:name=".URL"/>
         <activity android:name=".ContactUs">
         </activity>
     </application>
