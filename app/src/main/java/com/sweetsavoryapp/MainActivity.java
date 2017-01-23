@@ -9,7 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle("Sweet N Savory");
+        final ImageView image= (ImageView) findViewById(R.id.mainpic);
 
         final Intent americanIntent = new Intent(this, Menu.class);
         final Intent SouthernIntent = new Intent(this, South.class);
@@ -44,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
         final Intent contactUs = new Intent(this, ContactUs.class);
         //final Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
 
+                    //Toast.makeText(getConte)
+
+                }
+            }
+        });
         Button Brooklyn =(Button) findViewById(R.id.button1);
         Brooklyn.setOnClickListener(new View.OnClickListener() {
             @Override
