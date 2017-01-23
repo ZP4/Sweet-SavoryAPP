@@ -44,12 +44,19 @@ public class MainActivity extends AppCompatActivity {
         final Intent carribeanIntent = new Intent(this, Carribean.class);
         final Intent europeIntent = new Intent(this, European.class);
         final Intent africaIntent = new Intent(this, African.class);
+        final Intent Drinks = new Intent(this, Drinks.class);
         final Intent contactUs = new Intent(this, ContactUs.class);
         //final Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
 
                     //Toast.makeText(getConte)
 
-
+    Button Drinks1 = (Button) findViewById(R.id.drinks);
+        Drinks1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(Drinks);
+            }
+        });
         Button Brooklyn =(Button) findViewById(R.id.button1);
         Brooklyn.setOnClickListener(new View.OnClickListener() {
             @Override
