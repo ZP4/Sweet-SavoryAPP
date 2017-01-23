@@ -51,11 +51,11 @@ public class MiddleEast extends AppCompatActivity {
         *///ll.addView(tv);
         for (Map.Entry<String, HashMap<String, HashMap<String, String>>> all : foodList.Middle_east.entrySet()) {
 
-            persons .add(new FoodFormat(all.getKey(),"  ","  ","  ","  ",true));
+            persons .add(new FoodFormat(all.getKey(),"  ","  ","  ","  ",true,""));
 
 
             for (Map.Entry< String, HashMap<String, String>>b:all.getValue().entrySet()) {
-                persons .add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), b.getValue().get("Servings"), b.getValue().get("ID"),false));
+                persons .add(new FoodFormat(b.getValue().get("Title"), b.getValue().get("Description"),b.getValue().get("Price"), b.getValue().get("Servings"), b.getValue().get("ID"),false,  b.getValue().get("URL")));
                 //for (Map.Entry<String, String> c : b.getValue().entrySet()) {
                 //System.out.println(c.toString());
                     //persons.add(new FoodFormat(c.getValue(), "Hello", "123", "5", "6"));

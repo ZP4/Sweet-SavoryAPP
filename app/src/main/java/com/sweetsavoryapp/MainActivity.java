@@ -49,9 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
                     //Toast.makeText(getConte)
 
-                }
-            }
-        });
+
         Button Brooklyn =(Button) findViewById(R.id.button1);
         Brooklyn.setOnClickListener(new View.OnClickListener() {
             @Override

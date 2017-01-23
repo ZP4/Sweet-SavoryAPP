@@ -16,6 +16,15 @@ public class FoodFormat {
     public String Price;
     public String Quantaty;
 
+    public String getURl() {
+        return URl;
+    }
+
+    public void setURl(String URl) {
+        this.URl = URl;
+    }
+
+    public String URl;
     public Boolean getHeader() {
         return Header;
     }
@@ -71,13 +80,14 @@ public class FoodFormat {
 
     String Id;
 
-    FoodFormat(String title, String descript, String price, String quantaty, String id, boolean header){
+    FoodFormat(String title, String descript, String price, String quantaty, String id, boolean header, String url){
     this.Title = title;
         this.Descript = descript;
         this.Price = price;
         this.Quantaty = quantaty;
         this.Id =id;
         this.Header = header;
+        this.URl =url;
 
     }
 
