@@ -28,6 +28,7 @@
         <activity android:name=".URL"/>
         <activity android:name=".ContactUs">
         </activity>
+        <activity android:name=".Drinks"/>
     </application>
 
 </manifest>

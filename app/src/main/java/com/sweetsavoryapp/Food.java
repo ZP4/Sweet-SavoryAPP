@@ -19,7 +19,7 @@ public class Food {
     public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>   Middle_east= new  LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
     public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>   Asia    =  new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
     public LinkedHashMap<String, HashMap<String, HashMap<String,String>>>  Africa =  new LinkedHashMap<String, HashMap<String, HashMap<String,String>>>();
-    public LinkedHashMap<String, HashMap> Drinks  = new LinkedHashMap<String, HashMap>();
+    public LinkedHashMap<String, HashMap<String, String>> Drinks  = new LinkedHashMap<String, HashMap<String, String>>();
     public HashMap<String, HashMap<String,String>>AA     = new HashMap<String, HashMap<String,String>>();
     public HashMap<String, String>FMNCB    = new HashMap<String,String>();
 

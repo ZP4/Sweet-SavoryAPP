@@ -157,6 +157,18 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
+                android:text="Drinks"
+                android:textSize="28dp"
+                android:padding="5dp"
+                android:id="@+id/drinks"
+                android:background="@color/colorAccent"
+                android:textColor="#FFFFFF"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
                 android:text="Contact Us"
                 android:textSize="28dp"
                 android:padding="5dp"
