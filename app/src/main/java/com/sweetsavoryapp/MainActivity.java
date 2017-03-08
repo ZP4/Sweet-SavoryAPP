@@ -1,6 +1,7 @@
 package com.sweetsavoryapp;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -100,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button Europe =(Button) findViewById(R.id.button6);
+        //Europe.setBackgroundColor(Color.WHITE);
+        //Europe.setBackgroundResource(R.drawable.europe);
         Europe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
