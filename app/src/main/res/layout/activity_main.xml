@@ -20,12 +20,7 @@
         android:textColor="#FFFFFF"
         android:paddingLeft="40dp"
         android:layout_alignParentLeft="true"/>
-    <ImageView
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"
-        android:id="@+id/mainpic"/>
+
     <TextView
         android:textColor="#FFFFFF"
         android:paddingRight="40dp"
@@ -49,11 +44,9 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Brooklyn"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button1"
-                android:background="@color/colorAccent"
+                android:background="@drawable/brooklyn"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
@@ -61,11 +54,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Hispanic"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button2"
-                android:background="@color/colorAccent"
+                android:background="@drawable/hispanic"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
@@ -73,11 +64,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="The Middle East"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button3"
-                android:background="@color/colorAccent"
+                android:background="@drawable/middleeast"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
@@ -85,11 +74,10 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Asia"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button4"
-                android:background="@color/colorAccent"
+                android:background="@drawable/asia"
+                android:scaleType="fitXY"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
@@ -97,11 +85,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Carribean"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button5"
-                android:background="@color/colorAccent"
+                android:background="@drawable/caribbean"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
@@ -109,11 +95,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Europe"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button6"
-                android:background="@color/colorAccent"
+                android:background="@drawable/euorpe"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
@@ -121,11 +105,11 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Africa"
-                android:textSize="28dp"
+
+
                 android:padding="5dp"
                 android:id="@+id/button7"
-                android:background="@color/colorAccent"
+                android:background="@drawable/africa"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
@@ -133,11 +117,10 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="The American"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button8"
-                android:background="@color/colorAccent"
+                android:background="@drawable/america"
+
                 android:textColor="#FFFFFF"/>
             <Space
                 android:layout_width="match_parent"
@@ -145,11 +128,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Southern Comfort"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button9"
-                android:background="@color/colorAccent"
+                android:background="@drawable/southerncomfort"
                 android:textColor="#FFFFFF"/>
             <Space
                 android:layout_width="match_parent"
@@ -157,11 +138,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Drinks"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/drinks"
-                android:background="@color/colorAccent"
+                android:background="@drawable/drinks"
                 android:textColor="#FFFFFF"/>
             <Space
                 android:layout_width="match_parent"
@@ -169,16 +148,20 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:text="Contact Us"
-                android:textSize="28dp"
                 android:padding="5dp"
                 android:id="@+id/button10"
-                android:background="@color/colorAccent"
+                android:background="@drawable/contact"
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
     </ScrollView>
 
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/mainpic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>

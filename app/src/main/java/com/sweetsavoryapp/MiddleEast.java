@@ -34,7 +34,7 @@ public class MiddleEast extends AppCompatActivity {
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this));
         List<FoodFormat> persons;
-
+        rv.setBackgroundResource(R.drawable.menumiddleeast);
 
 
         persons = new ArrayList<>();

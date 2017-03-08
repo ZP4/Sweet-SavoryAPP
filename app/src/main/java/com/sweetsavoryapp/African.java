@@ -34,7 +34,7 @@ public class African extends AppCompatActivity {
         rv.setHasFixedSize(true);
         rv.setLayoutManager(new LinearLayoutManager(this));
         List<FoodFormat> persons;
-
+        rv.setBackgroundResource(R.drawable.menuafrica);
 
 
         persons = new ArrayList<>();
