@@ -29,6 +29,7 @@ public class Brooklyn extends AppCompatActivity {
         getSupportActionBar().setTitle("Brooklyn");
 
         LinearLayout ll = (LinearLayout)findViewById(R.id.linear);
+
         //Typeface s = Typeface.createFromAsset(getAssets(), "fonts/BRUSHSCI.ttf");
         RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
         rv.setHasFixedSize(true);

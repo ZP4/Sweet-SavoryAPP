@@ -117,7 +117,7 @@ public class Food {
         AA.put("Fred Mac N Cheese Balls", FMNCB);
         AA.put("Philly Cheeseteak Sliders",PCS);
         AA.put("New England Clam Chowder Soup",NECCS);
-        American.put("Appitizer", AA);
+        American.put("Appetizers", AA);
         AE.put("Sliced Meatloaf", SM);
         AE.put("Carved Double Roasted Chicken", CDRC);
         AE.put("Paremsan Crusted Ttilapia", PCT);
@@ -239,7 +239,7 @@ public class Food {
         BA.put("Bagel Pops", BP);
         BA.put("Coney Island Hot Dog", CIHD);
         BA.put("Hot Wings", HW);
-        Brooklyn.put("Appitizer", BA);
+        Brooklyn.put("Appetizers", BA);
         Brooklyn.put("Entrees", BE);
         Brooklyn.put("Side Dish",BSD);
         Brooklyn.put("Desserts", BD);
@@ -347,7 +347,7 @@ public class Food {
         SCA.put("Cripsy Fried Shrimp", CFS);
         SCA.put("Chicken and Waffle Minis", CAWM);
         SCA.put("Hushpuppies",HP);
-        Southern_Comfort.put("Appitizer", SCA);
+        Southern_Comfort.put("Appetizers", SCA);
         Southern_Comfort.put("Entrees",SCE);
         Southern_Comfort.put("Side Dish",SCSD);
         Southern_Comfort.put("Desserts",SCD);
@@ -456,7 +456,7 @@ public class Food {
         HA.put("Vegan Tostones",VT);
         HA.put("Sorullitos de Maiz",SDM);
         HA.put("Sancocho",S);
-        Hispanic.put("Appitizer", HA);
+        Hispanic.put("Appetizers", HA);
 
 
         //CARRIBEAN
@@ -725,7 +725,7 @@ public class Food {
         EA.put("Cheddar Gougeres",CG);
         EA.put("Prawn Canapes",PCA);
         EA.put("Potato Latkes",PL);
-        Europe.put("Appitizer", EA);
+        Europe.put("Appetizers", EA);
         Europe.put("Entrees", EE);
         Europe.put("Side Dish",ESD);
         Europe.put("Desserts",ED);
@@ -835,7 +835,7 @@ public class Food {
         MEA.put("Vegan Baba Ghanoush & Pita",VBGP);
         MEA.put("Sambosas",SA);
         MEA.put("Falafel Minis",FM);
-        Middle_east.put("Appitizer",MEA);
+        Middle_east.put("Appetizers",MEA);
         Middle_east.put("Entrees", MEE);
         Middle_east.put("Side Dish",MESD);
         Middle_east.put("Desserts",MED);
@@ -1020,7 +1020,7 @@ public class Food {
         ASA.put("Kimchi Dumplings",KD);
         ASA.put("Chicken Egg Rolls",CER);
 
-        Asia.put("Appitizer",ASA);
+        Asia.put("Appetizers",ASA);
         Asia.put("Entrees",ASE);
         Asia.put("Side Dish",ASSD);
         Asia.put("Desserts",ASID);
@@ -1097,7 +1097,7 @@ public class Food {
 
         AFA.put("Pepper Soup",PSO);
         AFA.put("Puff Puff",PPU);
-        Africa.put("Appitizer",AFA);
+        Africa.put("Appetizers",AFA);
         Africa.put("Entrees",AFE);
         Africa.put("Side Dish",AFSD);
         Africa.put("Desserts",AFD);
